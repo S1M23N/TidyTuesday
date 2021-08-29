@@ -54,4 +54,5 @@ ggplot(lemurs_short_year, aes(x = year, y = n, fill = sex)) +
   labs(title = "Number of Lemur Births at Duke Lemur Center",
        x = "",
        y= "",
-       caption = " Contribution to TidyTuesday (Week35) by Thomas Mock \n Data-Source: https://www.kaggle.com/jessemostipak/duke-lemur-center-data \n Picture: wikipedia.org/wiki/Lemuren#/media/Datei:Ruffed_Lemur_Singapore.JPG")
+       caption = " Contribution to TidyTuesday (Week35) by Thomas Mock \n Data-Source: https://www.kaggle.com/jessemostipak/duke-lemur-center-data \n Picture: wikipedia.org/wiki/Lemuren#/media/Datei:Ruffed_Lemur_Singapore.JPG") +
+  ggsave("TidyTuesdayWeek35.png")
