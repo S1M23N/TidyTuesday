@@ -57,7 +57,7 @@ y <- ggplot(map) +
 x + 
   plot_annotation(
     title = "Development of Seafood production and capture in Germany",
-    caption = " Contribution to TidyTuesday (Week41) by Thomas Mock \n Data-Source: https://ourworldindata.org/seafood-production") + 
+    caption = " Contribution to TidyTuesday (Week42) by Thomas Mock \n Data-Source: https://ourworldindata.org/seafood-production") + 
   inset_element(
     y,
     left = 0.5,
@@ -68,5 +68,5 @@ x +
 
 # save visualization
 setwd("~/Documents/GitHub/TidyTuesday/TidyTuesday")
-ggsave( file="TidyTuesdayWeek33.png")
+ggsave( file="TidyTuesdayWeek42.png")
   
