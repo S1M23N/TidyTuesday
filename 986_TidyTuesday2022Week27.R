@@ -30,7 +30,7 @@ rent_summary <- rent %>%
 # plot
 ggplot(rent_summary, aes(year, mean)) +
   geom_bar(stat ="identity", color = "black", fill = "khaki") +
-  geom_errorbar(aes(ymin = mean-sd, ymax = year+sd), width = 0.2) +
+  geom_errorbar(aes(ymin = mean-sd, ymax = mean+sd), width = 0.2) +
   labs(x = "",
        y = "",
        title = "Average Craigslist rents in San Francisco",
